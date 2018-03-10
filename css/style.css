@@ -1,0 +1,44 @@
+
+body{
+	background-color: lightblue;
+}
+p{
+	
+	text-align: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 25px;
+    text-align: center;
+     color: red;
+    border-image: 
+    font-family : verdana;
+    font-size: 20px;
+}
+video {
+    width: 50%;
+    height: auto;
+    text-align: right;
+}
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
